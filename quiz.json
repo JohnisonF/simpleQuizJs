@@ -1,0 +1,155 @@
+{
+    "quizTitle": "O quanto você conhece de Hunter x Hunter?",
+    "questions": [
+        {
+            "question": "Quem é o melhor amigo de Gon?",
+            "img":"",
+            "answers": [
+                {
+                    "txtButtons": "Hisoka",
+                    "value": 0
+                },
+                {
+                    "txtButtons": "Killua",
+                    "valor": 5
+                },
+                {
+                    "txtButtons": "Kurapika",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Leorio",
+                    "valor": 0
+                }
+            ]
+        },
+        {
+            "question": "Quem tem ódio da Genei Ryodan?",
+            "img": "",
+            "answers": [
+                {
+                    "txtButtons": "Gon",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Kurapika",
+                    "valor": 5
+                },
+                {
+                    "txtButtons": "Leorio",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Killua",
+                    "valor": 0
+                }
+            ]
+    
+        },
+        {
+            "question": "Qual é o tipo de nen do Gon?",
+            "img": "",
+            "answers": [
+                {
+                    "txtButtons": "Intensificação",
+                    "valor": 5
+                },
+                {
+                    "txtButtons": "Emissão",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Transformação",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Manipulação",
+                    "valor": 0
+                }
+            ]
+        },
+        {
+            "question": "Quem salvou o Gon após quase perder a vida?",
+            "img": "",
+            "answers": [
+                {
+                    "txtButtons": "Leorio",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Ging Freecss",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Alluka Zoldyck",
+                    "valor": 5
+                },
+                {
+                    "txtButtons": "Hisoka",
+                    "valor": 0
+                }
+            ]
+        },
+        {
+            "question": "Quem derrotou Pitou?",
+            "img": "",
+            "answers": [
+                {
+                    "txtButtons": "Ging Freecss",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Isaac Netero",
+                    "valor": 0
+                },
+                {
+                    "txtButtons": "Gon",
+                    "valor": 5
+                },
+                {
+                    "txtButtons": "Hisoka",
+                    "valor": 0
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "result": "Você não tem conhecimento sobre HxH :(",
+            "img": "",
+            "text": "Você não acertou nenhuma resposta!",
+            "range": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        {
+            "result": "Você sabe pouco.",
+            "img": "",
+            "text": "Você acertou apenas uma resposta!",
+            "range": {
+                "min": 5,
+                "max": 10
+            }
+        },
+        {
+            "result": "Você sabe muito!",
+            "img": "",
+            "text": "Você quase acertou todas as perguntas!",
+            "range": {
+                "min": 15,
+                "max": 20
+            }
+        },
+        {
+            "result": "Você sabe de tudo!",
+            "img": "",
+            "text": "Parabéns, você acertou todas as respostas!",
+            "range": {
+                "min": 25,
+                "max": 25
+            }
+        }
+    ]
+}
+

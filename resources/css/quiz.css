@@ -1,0 +1,90 @@
+#label-quiz {
+    width: 100%;
+    text-align: center;
+}
+#titulo-pergunta {
+    background-color: #00000029;
+    color: white;
+    padding: 0px 10px 5px 10px;
+    border-radius: 5px;
+}
+#num-pergunta {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    padding: 7px 14px;
+    border-radius: 7px 3px 3px 3px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+#quiz {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 1px #00000070;
+    width: 80%;
+    height: 500px;
+    border-radius: 7px;
+    padding-top: 30px;
+}
+#bg-pergunta {
+    width: 90%;
+    background-size: 100% 100%;
+    height: 275px;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 1px #00000070;
+    position: relative;
+}
+#respostas{ 
+    width: 90%;
+    margin: 20px 5% 0px 5%;
+    box-shadow: 0px 0px 10px 1px #00000070;
+    border-radius: 7px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #4e4e4e;
+}
+#respostas .resposta {
+    width: calc(50% - 20px);
+    height: calc(50% - 20px);
+    transition: all ease 0.3s;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px #00000030;
+    color: black;
+}
+#respostas .resposta:hover {
+    background-color: #dedede;
+    border: 1px solid #918d8d94;
+}
+#respostas .resposta:nth-child(1) {
+    margin: 0px 5px 5px 0px;
+}
+#respostas .resposta:nth-child(2) {
+    margin: 0px 0px 5px 5px;
+}
+#respostas .resposta:nth-child(3) {
+    margin: 5px 5px 0px 0px;
+}
+#respostas .resposta:nth-child(4) {
+    margin: 5px 0px 0px 5px;
+}
