@@ -1,6 +1,6 @@
 # Simple quiz using Js
 
-Desenvolvi um simples quiz apenas utilizando um pouco de Js recebendo dados de algum json.
+Desenvolvi um simples quiz apenas utilizando um pouco de Js recebendo dados de algum json. Para chegar a um resultado é feito a soma dos valores nos objetos em **"questions"** e você receberá o resultado se o range entre o **"min"** e **"max"** estabelecidos em **"results"** for atingido.
 
 
 ## Obs
@@ -10,6 +10,7 @@ Tirei as imagens de teste para não ocorrer problemas.
 
 #
 Abaixo tem uma imagem deste projeto:
+
 <img src="screenshot.jpeg" width="550" height="450"/>
 
 
