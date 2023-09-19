@@ -43,12 +43,13 @@ Aqui tem objeto de exemplo para colocar em uma pergunta dentro do array  **"ques
     "answers": [
       {
           "txtButtons": "Hisoka",
-          "value": 0
+          "valor": 0
       }
 }
 ```
+(Aqui é onde você coloca os botões para as questões, podendo alterar o valor contido caso a questão esteja correta ou não).
 ##
-E um exemplo de objeto colocado dentro de **"results"** seria:
+E um exemplo de objeto colocado dentro de **"results"** seria: 
 ```json
 {
     "result": "You're a pro!",
@@ -60,7 +61,7 @@ E um exemplo de objeto colocado dentro de **"results"** seria:
     }
 }
 ```
-
+(apartir do range entre min e max com base nos pontos escolhidos da questão, irá aparecer o resultado na tela).
 ## Conclusão
 
 Pensei primeiramente em como seria os dados e coloquei no **Json**. Após isso capturei os dados em Javascript e criei o script por lá. Para mim, o resultado saiu melhor do que o esperado. Este projeto pode ser melhorado e muito como o **css** e algumas funções, mas o começo está aqui.
