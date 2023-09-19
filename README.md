@@ -23,7 +23,7 @@ Abaixo tem uma imagem deste projeto:
 
 No json do arquivo **quiz.json**, estou utilizando o seguinte padrão para o funcionamento do quiz:
 
-```
+```json
 {
   "quizTitle": "O quanto você conhece de Hunter x Hunter?",
   "questions": [
@@ -36,8 +36,7 @@ No json do arquivo **quiz.json**, estou utilizando o seguinte padrão para o fun
 ```
 ##
 Aqui tem objeto de exemplo para colocar em uma pergunta dentro do array  **"questions"**:
-```
-...
+```json
 {
     "question": "Quem é o melhor amigo de Gon?",
     "img":"",
@@ -47,12 +46,10 @@ Aqui tem objeto de exemplo para colocar em uma pergunta dentro do array  **"ques
           "value": 0
       }
 }
-...
 ```
 ##
 E um exemplo de objeto colocado dentro de **"results"** seria:
-```
-...
+```json
 {
     "result": "You're a pro!",
     "img": "",
@@ -62,7 +59,6 @@ E um exemplo de objeto colocado dentro de **"results"** seria:
         "max": 0
     }
 }
-...
 ```
 
 ## Conclusão
